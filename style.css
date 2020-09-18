@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 65.2%;
+}
+.header{
+    background-image: url(../images/burried.png);
+}
+.menu{
+    font-size: 2.6rem;
+    text-decoration: none; 
+    display: flex;
+    justify-content: flex-end;   
+    color: rgba(243, 8, 8, 0.774);
+    font-weight: bold;
+}
+.menu a::after{
+    content: "|";
+    color: rgba(243, 8, 8, 0.774);;
+}
+.menu a:hover
+{
+    color: rgb(218, 228, 228);
+}
+li {
+    display: inline-block;
+    padding: 30px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;    
+}
+.slider{
+    top: 0;
+    width: 30%;
+    object-fit: cover;
+    text-align: center;
+    background: whitesmoke;
+    color:whitesmoke;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.div-img{
+    padding: 10px 10px 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-image: url(../images/real_cf.png);
+}
+.principal{
+    width: 70%;
+    background-image: url(../images/burried.png);
+    font-size: 1.9rem;
+    color: whitesmoke;
+    padding: 50px;
+}
+.video{
+    position: absolute;
+    width: 65%;
+    height: 100%;
+    padding-top: 80px;
+}
+.social{
+    background-image: url(../images/burried.png);
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly   ;
+}
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;   
+    margin: 0 10px;
+    background-size: 50px 50px;     
+    margin-top: 30px;
+}
+.social-link.facebook{
+    background-image: url(../images/tesla_models/icons8-facebook-50.png);
+    background-size: 50px;
+}
+.social-link.twitter{
+    background-image: url(../images/tesla_models/icons8-twitter-50.png);
+    background-size: 50px;
+}
+.social-link.instagram{
+    background-image: url(../images/tesla_models/icons8-instagram-50.png);
+    background-size: 50px;
+}
+.social-link.github{
+    background-image: url(../images/tesla_models/icons8-github-50.png);
+    background-size: 50px;
+}
+
